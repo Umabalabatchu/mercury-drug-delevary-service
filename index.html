@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mercury drug</title>
+    <style>
+        h2 {
+            color: white;
+            background-color: rgb(177, 29, 29);
+            text-align: center;
+            border-width: 400px;
+            border-radius: 7px;
+        }
+
+        input[type="text"],
+        input[type="tel"],
+        input[type="number"],
+        input[type="email"]{
+            width: 99%;
+            background-color: #8B8B8B;
+        }
+      input::placeholder{
+        background-color: #8B8B8B;
+        color: white;
+      }
+
+        .a {
+            color: black;
+        }
+
+       a{
+        color: #0106E9;
+       }
+
+        table {
+            border: 2px solid black;
+            margin: auto;
+            border-radius: 6px;
+            padding: 6px;
+        }
+
+        td
+        {
+            border: 1px solid  rgb(211, 204, 204) ;
+            border-style: inset;
+            border-radius: 6px;
+            color: white;
+            padding: 2px;
+            width: 800px;
+        }
+       .form{
+        background-color: darkgray;
+        width: 700px;
+        margin-left: 30%;
+        padding: 20px;
+       }
+    </style>
+
+<body>
+    <form action="" class="form">
+    <table>
+        <thead>
+            <h2>
+                Mercury Drug Delivery Service - Partner Invite
+            </h2>
+            <tr>
+                <td colspan="2">
+                    <input type="text" id="pname" placeholder="Pharmacy name*">
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" id="pin" placeholder="Pin (Primary Location)*">
+                </td>
+                <td><input type="text" id="city" placeholder="City*"></td>
+            </tr>
+            <tr>
+                <td> 
+                    <input type="text" id="pharmacyowner" placeholder="Farmacy owner*">
+                </td>
+                <td> <input type="tel" id="phonenumber" placeholder="Phone number*"></td>
+            </tr>
+            <tr>
+                <td colspan="2"> <input type="email" id="email" placeholder="Email*"></td>
+
+            </tr>
+            <tr>
+                <td colspan="2"> <input type="text" id="link" placeholder="Website link/online listening link*"></td>
+
+            </tr>
+            <tr>
+                <td> <input type="number" id="nuoutlets" placeholder="Number of outlets*"></td>
+                <td> <input type="text" id="poutlets" placeholder="Primary Area of outlets*"></td>
+            </tr>
+            <tr>
+                <td> <input type="number" id="cost" placeholder="Minimum purchase cost*"></td>
+                <td> <input type="text" id="chain" placeholder="Establishment:Independent/chain*"></td>
+            </tr>
+            <tr>
+                <td class="a" colspan="2">Medicines avalible:
+                    <input type="checkbox"> General Sales List Madicines(GSL)
+                    <input type="checkbox">Pharmacy Madicines(p)
+                    <input type="checkbox">Prescription Only <br>
+                    <input type="checkbox">Medicens(POM)
+                    <input type="checkbox">Controlled Drugs(CDs)
+
+                </td>
+
+            </tr>
+            <tr>
+                <td class="a">
+
+                    Retail Drug License(Jpeg/PDF)* <br>
+                    <input type="file">
+
+                </td>
+                <td class="a">GSTIN/PAN* <br>
+                    <input type="file">
+                </td>
+            </tr>
+            <tr>
+                <td class="a">FSSAI(Jpeg/PDF)* <br>
+                    <input type="file">
+                </td>
+                <td class="a">Facade/Pharmacy-shelves/Refridgerator(Jpeg)* <br>
+                    <input type="file">
+                </td>
+            </tr>
+        </thead>
+    </table>
+    <div class="rama">
+        <input type="checkbox"> <a href="">I agree to terms of services</a><br>
+        <input type="button" value="SUBMIT" style="color: brown;">
+    </div>
+</form>
+</body>
+
+</html>
