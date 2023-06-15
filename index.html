@@ -53,8 +53,9 @@
         }
        .form{
         background-color: darkgray;
-        width: 700px;
+        width: fit-content;
         margin-left: 30%;
+        margin-right: 30%;
         padding: 20px;
        }
     </style>
@@ -101,12 +102,17 @@
                 <td> <input type="text" id="chain" placeholder="Establishment:Independent/chain*"></td>
             </tr>
             <tr>
-                <td class="a" colspan="2">Medicines avalible:
-                    <input type="checkbox"> General Sales List Madicines(GSL)
-                    <input type="checkbox">Pharmacy Madicines(p)
-                    <input type="checkbox">Prescription Only <br>
-                    <input type="checkbox">Medicens(POM)
-                    <input type="checkbox">Controlled Drugs(CDs)
+                <td class="a" colspan="2" >Medicines avalible:
+                    <input type="checkbox" id="General Sales List Madicines(GSL)"> 
+                    <label for="General Sales List Madicines(GSL)">General Sales List Madicines(GSL)</label>
+                    <input type="checkbox" id="Pharmacy Madicines(p)" >
+                    <label for="Pharmacy Madicines(p)">Pharmacy Madicines(p)</label>
+                    <input type="checkbox" id="Prescription Only ">
+                    <label for="Prescription Only ">Prescription Only </label><br>
+                    <input type="checkbox" id="Medicens(POM)">
+                    <label for="Medicens(POM)">Medicens(POM)</label>
+                    <input type="checkbox" id="Controlled Drugs(CDs)">
+                    <label for="Controlled Drugs(CDs)">Controlled Drugs(CDs)</label>
 
                 </td>
 
@@ -133,7 +139,7 @@
         </thead>
     </table>
     <div class="rama">
-        <input type="checkbox"> <a href="">I agree to terms of services</a><br>
+        <input type="checkbox" id="I agree to terms of services"> <a href="">I agree to terms of services</a><br>
         <input type="button" value="SUBMIT" style="color: brown;">
     </div>
 </form>
